@@ -1,0 +1,112 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-shadow: border-box;
+}
+
+body{
+    background: #000;
+    color: #fff;
+}
+.card{
+    width:600px;
+    height:auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.card__head{
+    width:100%;
+    height:50px;
+    background: orange;
+    padding:10px 0px;
+    color:white;
+    text-align:center;
+}
+.card__body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:200px;
+    background: #fff;
+    color:#000;
+    position: relative;
+}
+.card__show{
+    margin:20px 0px;
+}
+.card__show .card__text{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.card__show #show{
+    color:red;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.card__type{
+    margin:10px 0px;
+}
+.card__type input[type='text']{
+    width:100%;
+    border:2px solid #333;
+    padding:10px 2px;
+    color:#333;
+    font-size:1rem;
+}
+.card__type input[type='submit']{
+    width:100%;
+    background: #1f1f1f;
+    color:#fff;
+    text-align:center;
+    font-size:1rem;
+    font-weight:bold;
+    border:none;
+    margin:10px 0px;
+    box-shadow: 2px 2px 1px 3px #020202;
+}
+#countDown{
+    position:absolute;
+    top:5px;
+    right:10px;
+}
+.successMessage{
+    width:100%;
+    height:100%;
+    background:#4ac471d6 ;
+    color:#008f2d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 0px;
+    position:relative;
+}
+.successMessage h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.5rem;
+    font-weight:500;
+    display:inline-block;
+}
+.reset{
+    display:inline-block;
+    color:white;
+    width:60px;
+    height:auto;
+    border:none;
+    background:#008f2d;
+    margin:0px 10px;
+    color:white;
+    position:absolute;
+    top:5px;
+    right:10px;
+    text-align: center;
+    font-size: 2rem;
+    cursor:pointer;
+}

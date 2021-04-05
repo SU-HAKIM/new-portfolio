@@ -1,0 +1,25 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bootstrap.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "buildA": "babel src -d lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-regenerator": "^7.12.13",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "axios": "^0.21.1"
+  }
+}
