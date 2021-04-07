@@ -1,0 +1,35 @@
+body{
+    background: rgb(0, 62, 197);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.whiteBox{
+    width: 200px;
+    height:200px;
+    background: #fff;
+    margin:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   border:2px dashed transparent;
+}
+.imgBox{
+     width:80%;
+     height:80%;
+     border-radius: 100px;
+    background: url('./image.jpg');
+    background-position: center;
+    background-size: cover;
+    cursor:pointer;
+}
+.border{
+    border:4px solid red;
+}
+.hide{
+   display: none;
+}
+.overEffect{
+    background: #333;
+    border:2px dashed #000;
+}
