@@ -24,7 +24,7 @@ form.addEventListener('submit', function (e) {
         show.textContent = arrOfItem[indexIncrement]
         showScore.textContent = score
         type.value = ''
-        if (score == 1) {
+        if (score == 50) {
             let div = document.createElement('div')
             div.className = 'successMessage'
             div.innerHTML = `<h1>wow!you have passed first milestone</h1><span class='reset'>&times</span>;`

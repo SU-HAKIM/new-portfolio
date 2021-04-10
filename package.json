@@ -5,9 +5,10 @@
   "main": "bootstrap.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel index.html",
-    "build": "parcel build index.html",
-    "buildA": "babel src -d lib"
+    "dev": "parcel practise9/index.html",
+    "build": "parcel build practise9/index.html",
+    "buildA": "babel src -d lib",
+    "compile:sass":"sass --watch practiseScss/scss/style.scss practiseScss/css/style.css"
   },
   "keywords": [],
   "author": "",
